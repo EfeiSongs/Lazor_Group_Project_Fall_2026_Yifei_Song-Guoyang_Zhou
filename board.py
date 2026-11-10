@@ -21,6 +21,7 @@ class Block(Enum):
 
 
 class BoardFormatError(ValueError):
+    pass
 @dataclass(frozen=True)
 class Puzzle:
 
