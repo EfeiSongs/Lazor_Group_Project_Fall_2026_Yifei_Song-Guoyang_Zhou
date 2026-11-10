@@ -45,13 +45,11 @@ def _possibly_reaches_all(
         if seen & ray_bit:
             continue
 
-
         seen |= ray_bit
         step = graph.steps[ray]
         missing &= ~step.target
         tile = "x" if step.cell is None else grid[step.cell]
         if tile == UNASSIGNED:
-
 
             tile = relaxed_tile
         pending.extend(step.outgoing[tile])
@@ -73,7 +71,6 @@ def solve(puzzle: Puzzle) -> tuple[str, ...] | None:
                 next(search)
     except StopIteration as result:
         return result.value
-
 
 def _search(
     puzzle: Puzzle, graph: BeamGraph, order: tuple[str, ...]
@@ -115,8 +112,6 @@ def _search(
                 break
             seen |= ray_bit
             pending.extend(step.outgoing[tile])
-
-
 
         if not missing:
 
