@@ -1,4 +1,4 @@
-# Lazor_Group_Project_Fall_2026_Yifei_Song-Guoyang_Zhou
+# Lazor_Group_Project_Fall_2026_Yifei_Song_ and_Guoyang_Zhou
 Lazor_Group_Project_Fall_2026_Yifei_Song&amp;Guoyang_Zhou
 
 This project was jointly completed by Yifei Song and Guoyang Zhou.
